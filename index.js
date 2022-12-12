@@ -1,6 +1,6 @@
 // Register service worker to control making site work offline
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/blogpost//sw.js').then(() => { console.log('Service Worker Registered'); });
+  navigator.serviceWorker.register('/blogpost/sw.js').then(() => { console.log('Service Worker Registered'); });
 }
 
 var lastScrollTop = 0;

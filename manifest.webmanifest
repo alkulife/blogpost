@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "images/alkulife-blogpost.jpg",
-      "sizes": "192x192",
-      "type": "image/jpg"
+      "src": "images/alkulife-blogpost.png",
+      "sizes": "144x144",
+      "type": "image/png"
     }
   ],
   "name": "مدونة الخليفي",
