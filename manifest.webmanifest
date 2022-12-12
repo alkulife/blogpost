@@ -11,6 +11,6 @@
   ],
   "name": "مدونة الخليفي",
   "short_name": "مدونة الخليفي",
-  "start_url": "http://alkulify-blogspot.surge.sh/",
-  "scope": "http://alkulify-blogspot.surge.sh/"
+  "start_url": "https://alkulife.github.io/blogpost/",
+  "scope": "https://alkulife.github.io/blogpost/"
 }
