@@ -9,9 +9,9 @@
       "type": "image/png"
     },
     {
-      "src": "images/alkulife-blogpost.jpg",
-      "sizes": "314x108",
-      "type": "image/jpg"
+      "src": "images/alkulife-blogpost-512x.png",
+      "sizes": "512x512",
+      "type": "image/png"
     },
   ],
   "name": "مدونة الخليفي",
