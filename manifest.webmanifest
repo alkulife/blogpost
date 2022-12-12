@@ -1,0 +1,16 @@
+{
+  "background_color": "white",
+  "description": "مدونة الخليفي",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "images/alkulife-blogpost.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "name": "مدونة الخليفي",
+  "short_name": "مدونة الخليفي",
+  "start_url": "http://alkulify-blogspot.surge.sh/",
+  "scope": "http://alkulify-blogspot.surge.sh/"
+}
