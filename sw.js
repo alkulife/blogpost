@@ -1,16 +1,16 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('store').then((cache) => cache.addAll([
-      '/',
-      '/index.html',
-      '/index.js',
-      '/blogposts.js',
-      '/imags/alkulife-blogpost.jpg',
-      '/fonts/Amiri-Regular.ttf',
-      '/images/down.png',
-      '/images/up.png',
-      '/images/search.png',
-      '/images/toc.png',
+      '/blogpost/',
+      '/blogpost/index.html',
+      '/blogpost/index.js',
+      '/blogpost/blogposts.js',
+      '/blogpost/fonts/Amiri-Regular.ttf',
+      '/blogpost/images/alkulife-blogpost.jpg',
+      '/blogpost/images/down.png',
+      '/blogpost/images/up.png',
+      '/blogpost/images/search.png',
+      '/blogpost/images/toc.png',
     ])),
   );
 });
