@@ -7,7 +7,12 @@
       "src": "images/alkulife-blogpost.png",
       "sizes": "144x144",
       "type": "image/png"
-    }
+    },
+    {
+      "src": "images/alkulife-blogpost.jpg",
+      "sizes": "314x108",
+      "type": "image/jpg"
+    },
   ],
   "name": "مدونة الخليفي",
   "short_name": "مدونة الخليفي",
