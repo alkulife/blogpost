@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.addEventListener("scroll", scroll_handler)
-function scroll_handler () {
+function scroll_handler (e) {
 	if (processing) return;
 	if (going_to_toc) {
 		going_to_toc = false;
@@ -31,14 +31,14 @@ function scroll_handler () {
 
 	if (current_top_y > lastScrollTop){
 		let y_till_end = body_height - current_bottom_y;
-		if (y_till_end < screen_height*2) {
+		if (y_till_end < 300) {
 			for (let idx = last_shown_blog_idx; idx < blogposts.length; idx++) {
 				let el = blogposts[idx]
 				if (el.offsetHeight === 0) {
 					document.body.append(el)
 					last_shown_blog_idx = idx;
 					if (blogposts[idx-4]) {
-						blogposts[idx-4].remove()
+						blogposts[idx-4].remove()							
 					}
 					break;
 				}
@@ -46,7 +46,7 @@ function scroll_handler () {
 		}
 	} else {
 		let y_till_top = current_top_y
-		if (y_till_top < screen_height*2) {
+		if (y_till_top < 300) {
 			for (let idx = last_shown_blog_idx-1; idx >= 0; idx--) {
 				let el = blogposts[idx]
 				if (el.offsetHeight === 0) {
