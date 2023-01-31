@@ -55,6 +55,9 @@ function scroll_handler (e) {
 					if (blogposts[idx+4]) {
 						blogposts[idx+4].remove()
 					}
+					
+					document.body.scrollTop = y_till_top + el.offsetHeight;
+
 					break;
 				}
 			}
